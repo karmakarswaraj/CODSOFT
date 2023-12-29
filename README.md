@@ -4,11 +4,22 @@ Welcome to the CODSOFT Internship repository for Frontend Web Development projec
 
 ## Table of Contents
 
-- [Project 1: Calculator](#project-1-calculator)
-- [Project 2: Landing Page](#project-2-landing-page)
+- [Project 1: Landing Page](#project-2-landing-page)
+- [Project 2: Calculator](#project-1-calculator)
 - [Project 3: Responsive Portfolio](#project-3-responsive-portfolio)
 
-## Project 1: Calculator
+## Project 1: Landing Page
+
+Description: This project involves the design and implementation of a captivating landing page, focusing on modern design principles and user experience. Interns utilize HTML5, CSS3, and JavaScript to create an engaging and visually appealing webpage.
+
+Key Technologies:
+- HTML5
+- CSS3
+- JavaScript for interactive elements
+- Responsive Design
+
+  
+## Project 2: Calculator
 
 Description: I have developed a dynamic and interactive calculator application, providing users with a convenient tool for basic arithmetic operations. The project utilizes JavaScript, Styled Components, and state management for a seamless user experience.
 
@@ -19,15 +30,6 @@ Key Technologies:
 - Styled Components & State management
 - Responsive design for various screen sizes
 
-## Project 2: Landing Page
-
-Description: This project involves the design and implementation of a captivating landing page, focusing on modern design principles and user experience. Interns utilize HTML5, CSS3, and JavaScript to create an engaging and visually appealing webpage.
-
-Key Technologies:
-- HTML5
-- CSS3
-- JavaScript for interactive elements
-- Responsive Design
 
 ## Project 3: Responsive Portfolio
 
