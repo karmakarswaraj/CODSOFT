@@ -15,7 +15,7 @@ Description: This project involves the design and implementation of a captivatin
 Key Technologies:
 - HTML5
 - CSS3
-- JavaScript for interactive elements
+- JavaScript for for smooth scrolling and responsive menu
 - Responsive Design
 
   
