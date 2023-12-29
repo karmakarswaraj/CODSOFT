@@ -1,5 +1,6 @@
 /* Reset some default styling */
-body, ul {
+body,
+ul {
   margin: 0;
   padding: 0;
   background-color: rgba(51, 94, 88, 0.699);
@@ -18,7 +19,7 @@ body, ul {
   padding: 20px;
 }
 
-.menu-list{
+.menu-list {
   background-color: rgba(76, 172, 140, 0.699);
 }
 
@@ -27,9 +28,8 @@ body, ul {
 }
 
 .menu-list li {
-  
-   display:inline; 
-   margin-right:20px; 
+  display: inline;
+  margin-right: 20px;
 }
 
 .menu-list a {
@@ -62,7 +62,8 @@ body, ul {
   display: flex;
 }
 
-.btn-start, .btn-call {
+.btn-start,
+.btn-call {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -108,21 +109,21 @@ body, ul {
 }
 
 .twitter {
-    /* background-color: #1DA1F2; */
-    border-radius:50%;
-    padding:10px;
+  /* background-color: #1DA1F2; */
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .facebook {
   /* background-color: #1DA1F2; */
-  border-radius:50%;
-  padding:10px;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .instagram {
   /* background-color: #1DA1F2; */
-  border-radius:50%;
-  padding:10px;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 /* Style the services section */
@@ -147,13 +148,13 @@ body, ul {
   width: 300px;
   height: 300px;
   margin: 10px;
-  background-color:  rgba(168, 189, 186, 0.699);
+  background-color: rgba(168, 189, 186, 0.699);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.555);
   transition: 0.3s;
 }
 
 .service:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .service img {
@@ -239,7 +240,7 @@ body, ul {
   height: 239px;
   margin: 20px;
   padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .testimonial-card img {
