@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background: white; /* Background color for the entire page */
+  background: white;
   color: #4a4a4a;
   display: flex;
   justify-content: center;
@@ -14,17 +14,17 @@ body {
 }
 
 .container {
-  background: #7f92b0; /* Background color for the container */
+  background: #7f92b0;
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 8px 8px 16px #b8b8b8, -8px -8px 16px #ffffff; /* Shadows for Neumorphism effect */
+  box-shadow: 8px 8px 16px #b8b8b8, -8px -8px 16px #ffffff;
 }
 
 .display {
-  background: #8eefe5; /* Background color for the display */
+  background: #8eefe5;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: inset 8px 8px 16px #b8b8b8, inset -8px -8px 16px #ffffff; /* Inner shadows for display */
+  box-shadow: inset 8px 8px 16px #b8b8b8, inset -8px -8px 16px #ffffff;
 }
 
 .display input {
@@ -38,7 +38,7 @@ body {
 .btns button {
   width: 90px;
   height: 70px;
-  background: #d6a976; /* Background color for the buttons */
+  background: #d6a976;
   color: #333;
   border: none;
   outline: none;
@@ -46,22 +46,22 @@ body {
   cursor: pointer;
   font-size: 20px;
   margin: 5px;
-  transition: all 0.3s ease; /* Smooth transition for Neumorphism effect on hover */
+  transition: all 0.3s ease;
 }
 
 .btns button:hover {
-  background: #d6a976; /* Darken the button color on hover */
-  box-shadow: 6px 6px 12px #b8b8b8, -6px -6px 12px #ffffff; /* Adjust shadows on hover for Neumorphism effect */
+  background: #d6a976;
+  box-shadow: 6px 6px 12px #b8b8b8, -6px -6px 12px #ffffff;
 }
 
 #eval {
   width: 90px;
-  background: #6da55e; /* Background color for the equal button */
+  background: #6da55e;
   color: #333;
-  box-shadow: 6px 6px 12px #4b7b42, -6px -6px 12px #9ed897; /* Shadows for Neumorphism effect */
+  box-shadow: 6px 6px 12px #4b7b42, -6px -6px 12px #9ed897;
 }
 
 #eval:hover {
-  background: #578d4d; /* Darken the equal button color on hover */
-  box-shadow: 6px 6px 12px #4b7b42, -6px -6px 12px #9ed897; /* Keep the shadows consistent on hover */
+  background: #578d4d;
+  box-shadow: 6px 6px 12px #4b7b42, -6px -6px 12px #9ed897;
 }
