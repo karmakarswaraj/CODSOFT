@@ -1,57 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Calculator</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="utils.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1 class="text-center">CALCULATOR</h1>
-  <div class = " box flex flex-col items-center mx-auto m-w-20">
-    <div class="container flex flex-col items-center mx-auto m-w-20">
-      <div class="row">
-        <input class="input" type="text"/>
-      </div>
-      <div class="row">
-        <button class="button">C</button>
-        <button class="button">%</button>
-        <button class="button">M+</button>
-        <button class="button">M-</button>
-      </div>
-      <div class="row">
-        <button class="button">7</button>
-        <button class="button">8</button>
-        <button class="button">9</button>
-        <button class="button">*</button>
-      </div>
-      <div class="row">
-        <button class="button">4</button>
-        <button class="button">5</button>
-        <button class="button">6</button>
-        <button class="button">/</button>
-      </div>
-      <div class="row">
-        <button class="button">1</button>
-        <button class="button">2</button>
-        <button class="button">3</button>
-        <button class="button">+</button>
-      </div>
-      <div class="row">
-        <button class="button">0</button>
-        <button class="button">.</button>
-        <button class="button">=</button>
-        <button class="button">-</button>
-      </div>
+    <div class="calculator">
+        <div class="display">
+            <span id="operation"></span>
+            <input type="text" id="displayInput">
+        </div>
+        <div class="container">
+            <div>
+                <input type="button" value="C" class="special">
+                <input type="button" value="Del" class="special">
+                <input type="button" value="/" class="special">
+                <input type="button" value="%" class="special">
+            </div>
+            <div>
+                <input type="button" value="7">
+                <input type="button" value="8">
+                <input type="button" value="9">
+                <input type="button" value="*" class="special">
+            </div>
+            <div>
+                <input type="button" value="4">
+                <input type="button" value="5">
+                <input type="button" value="6"/>
+                <input type="button" value="+" class="special">
+            </div>
+            <div>
+                <input type="button" value="1">
+                <input type="button" value="2">
+                <input type="button" value="3">
+                <input type="button" value="-" class="special">
+            </div>
+            <div>
+                <input type="button" value="0">
+                <input type="button" value=".">
+                <input type="button" value="=" id="equal">
+            </div>
+        </div>
     </div>
-
-
-  </div>
-  
-  <script src="script.js"></script>
 </body>
-
+<script src="script.js"></script>
 </html>
