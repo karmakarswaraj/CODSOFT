@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background: #5f6876; /* Background color for the container */
+  background: #7f92b0; /* Background color for the container */
   border-radius: 20px;
   padding: 20px;
   box-shadow: 8px 8px 16px #b8b8b8, -8px -8px 16px #ffffff; /* Shadows for Neumorphism effect */
