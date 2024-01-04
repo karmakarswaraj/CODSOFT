@@ -34,3 +34,7 @@ a{
 .pad{
     padding-bottom: 20px;
 }
+
+.bgblur{
+    filter: blur(12px);
+}
