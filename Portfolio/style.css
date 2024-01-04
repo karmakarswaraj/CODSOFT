@@ -1,0 +1,64 @@
+body {
+  background-color: #14131b;
+}
+
+nav {
+    padding-bottom: 9px;
+    padding-top: 25px;
+  /* background-color: rgb(30, 30, 30); */
+  color: blanchedalmond;
+  height: 3vh;
+  width: 100vw;
+}
+/* NAV BAR */
+.logo {
+  padding-left: 15vw;
+  font-size: 19px;
+  text-align: left;
+}
+/* CONTAINER */
+
+.left{
+    height: 100%;
+    width: 18vw;
+    /* background-color: rgba(255, 235, 205, 0.233); */
+}
+
+.right{
+    height: 100%;
+    width: 82vw;
+    margin: 20px 26px 26px 0px;
+    background-color: rgba(238, 255, 205, 0.232);
+}
+
+.leetcode img{
+    height: 35px;
+    width: 81px;
+}
+
+.socials h3{
+    color: beige;
+    padding: 25px 50px 0px 30px;
+}
+
+.leftcontainer{
+    /* height: 100%;
+    width: 18vw; */
+    color: beige;
+    background-color: #1d1c24;
+    margin: 15px 18px 21px 18px;
+    border-radius: 15px;
+}
+
+
+.myspace h3{
+    color: beige;
+    padding: 25px 50px 0px 30px;
+}
+
+/*.box{
+    padding-top: 10px;
+    border-radius: 15px;
+    margin: 15px 5px 0px 12px;
+    background-color: #212124;
+}*/
