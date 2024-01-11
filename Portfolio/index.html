@@ -1,268 +1,518 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/22b16115d4.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="utility.css" />
-  </head>
-  <body>
-    <nav>
-      <p class="logo">127.0.0.1</p>
-    </nav>
 
-    <div class="container flex">
-      <div class="left box">
-        <div class="leftcontainer">
-          <div class="myspace">
-            <h3>My Space</h3>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icons -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <!-- swipper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="icon" href="img/tabimg.png">
+    <title>Bugsy</title>
+</head>
 
-            <div class="space gap-btwn">
-              <a href="/" target="_blank" class="sociallogo flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="32"
-                  width="27"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    fill="#bbc4d3"
-                    d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
-                  />
-                </svg>
-                <p class="socialname">Skills</p>
-              </a>
-            </div>
-
-            <div class="space gap-btwn pad">
-              <a href="/" target="_blank" class="sociallogo flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="32"
-                  width="27"
-                  viewBox="0 0 576 512"
-                >
-                  <path
-                    fill="#bbc4d3"
-                    d="M256 0h64c17.7 0 32 14.3 32 32V96c0 17.7-14.3 32-32 32H256c-17.7 0-32-14.3-32-32V32c0-17.7 14.3-32 32-32zM64 64H192v48c0 26.5 21.5 48 48 48h96c26.5 0 48-21.5 48-48V64H512c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128C0 92.7 28.7 64 64 64zM176 437.3c0 5.9 4.8 10.7 10.7 10.7H389.3c5.9 0 10.7-4.8 10.7-10.7c0-29.5-23.9-53.3-53.3-53.3H229.3c-29.5 0-53.3 23.9-53.3 53.3zM288 352a64 64 0 1 0 0-128 64 64 0 1 0 0 128z"
-                  />
-                </svg>
-                <p class="socialname">Contact</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="leftcontainer">
-          <div class="socials">
-            <h3>Socials</h3>
-
-            <div class="linkedIn gap-btwn">
-              <a
-                target="_blank"
-                class="sociallogo flex"
-                href="https://www.linkedin.com/in/swaraj-karmakar/"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="30"
-                  width="24"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    fill="#bbc4d3"
-                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"
-                  />
-                </svg>
-                <p class="socialname">LinkedIn</p>
-              </a>
-            </div>
-
-            <div class="twitter gap-btwn">
-              <a
-                target="_blank"
-                class="sociallogo flex"
-                href="https://twitter.com/hello_swaraj"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="30"
-                  width="27"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    fill="#bbc4d3"
-                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-                  />
-                </svg>
-                <p class="socialname">Twitter</p>
-              </a>
-            </div>
-
-            <div class="github gap-btwn">
-              <a
-                target="_blank"
-                class="sociallogo flex"
-                href="https://github.com/karmakarswaraj"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="30"
-                  width="27"
-                  viewBox="0 0 496 512"
-                >
-                  <path
-                    fill="#bbc4d3"
-                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
-                  />
-                </svg>
-                <p class="socialname">GitHub</p>
-              </a>
-            </div>
-
-            <div class="leetcode gap-btwn">
-              <a
-                target="_blank"
-                class="sociallogo flex"
-                href="https://leetcode.com/karmakarswaraj/"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="30"
-                  width="27"
-                  viewBox="0 0 640 512"
-                >
-                  <path
-                    fill="#bbc4d3"
-                    d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
-                  />
-                </svg>
-                <p class="socialname">Leetcode</p>
-              </a>
-            </div>
-
-            <div class="ninjas gap-btwn">
-              <a
-                target="_blank"
-                class="sociallogo flex"
-                href="https://www.codingninjas.com/studio/profile/SenZ"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="30"
-                  width="27"
-                  viewBox="0 0 448 512"
-                >
-                  <path
-                    fill="#bbc4d3"
-                    d="M224 256c-57.2 0-105.6-37.5-122-89.3c-1.1 1.3-2.2 2.6-3.5 3.8c-15.8 15.8-38.8 20.7-53.6 22.1c-8.1 .8-14.6-5.7-13.8-13.8c1.4-14.7 6.3-37.8 22.1-53.6c5.8-5.8 12.6-10.1 19.6-13.4c-7-3.2-13.8-7.6-19.6-13.4C37.4 82.7 32.6 59.7 31.1 44.9c-.8-8.1 5.7-14.6 13.8-13.8c14.7 1.4 37.8 6.3 53.6 22.1c4.8 4.8 8.7 10.4 11.7 16.1C131.4 28.2 174.4 0 224 0c70.7 0 128 57.3 128 128s-57.3 128-128 128zM0 482.3C0 399.5 56.4 330 132.8 309.9c6-1.6 12.2 .9 15.9 5.8l62.5 83.3c6.4 8.5 19.2 8.5 25.6 0l62.5-83.3c3.7-4.9 9.9-7.4 15.9-5.8C391.6 330 448 399.5 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM160 96c-8.8 0-16 7.2-16 16s7.2 16 16 16H288c8.8 0 16-7.2 16-16s-7.2-16-16-16H160z"
-                  />
-                </svg>
-                <p class="socialname">Coding Ninjas</p>
-              </a>
-            </div>
-
-            <div class="instagram gap-btwn pad">
-              <a
-                target="_blank"
-                class="sociallogo flex"
-                href="https://www.instagram.com/https.swaraj/"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="30"
-                  width="27"
-                  viewBox="0 0 448 512"
-                >
-                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                  <path
-                    fill="#bbc4d3"
-                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
-                  />
-                </svg>
-                <p class="socialname">Instagram</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="right">
-        <div class="banner">
-          <div class="profile">
-            <img
-              src="/media/dp.png"
-              alt="Profile Picture"
-              class="profile-pic"
-            />
-            <div class="profile-name">Swaraj Karmakar</div>
-          </div>
-          <div class="button">
-            <a
-              target="_blank"
-              class="sociallogo flex"
-              href="https://www.linkedin.com/in/swaraj-karmakar/"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="32"
-                width="32"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  fill="#bbc4d3"
-                  d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z"
-                />
-              </svg>
-              <p class="socialname">Get Resume</p>
+<body>
+    <!-- HEADER  -->
+    <header class="header" id="header">
+        <!-- nav  -->
+        <nav class="nav container padd-15">
+            <!-- nav logo -->
+            <a href="#" class="nav-logo">
+                <h2>Bugsy</h2>
             </a>
-          </div>
-        </div>
 
-        <div class="project flex">
-          <div class="project1 boxed">a</div>
-          <div class="project2 boxed">b</div>
-          <div class="project3 boxed">c</div>
-          <div class="project4 boxed">d</div>
-        </div>
+            <!-- nav-menu -->
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link ">Contact</a>
+                    </li>
+                </ul>
+                <!-- nav close  -->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close">
 
-        <div class="endbox flex">
-          <div class="skills">
-            <div class="first">
-              <div class="lang flex">
-                <div class="l1">C++</div>
-                <div class="l1">Java</div>
-                <div class="l1">Python</div>
-              </div>
-              <div class="frntend">
-                <div class="l1">HTML</div>
-                <div class="l1">CSS</div>
-                <div class="l1">Java Script</div>
-              </div>
+                    </i>
+                </div>
             </div>
-            <div class="second flex">
-              <div class="l1">
-                <div>DBMS</div>
-                <div>OOPs</div>
-                <div>OS</div>
-              </div>
-              <div class="l1">GIT</div>
+
+            <!-- nav btn  -->
+            <div class="nav-btns">
+
+                <!-- toggle btn  -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+
             </div>
-          </div>
-          <div class="connect ">
-            <h1>Connect With Me</h1>
-            <div class="connect-form flex">
-                <input type="email" placeholder="@email">
-                <button type="submit">→</button>
-              </div>
-              
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+        </nav>
+    </header>
+
+    <main class="main-content">
+
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="container">
+                <!-- intro  -->
+                <div class="intro">
+                    <!-- avatar img  -->
+                    <img src="./img/profilepic.png" alt="abhi">
+                    <!-- info  -->
+                    <div class="name"><b>Bugsy</b></div>
+                    <span>Student , <span class="info-text"> Web Development Enthusiast</span></span>
+                    <!-- social icons -->
+                    <ul class="social-icons">
+                        <li><a href="https://www.instagram.com" target="_blank"><img
+                                    src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a></li>
+                        <li><a href="https://twitter.com" target="_blank"><img
+                                    src="https://img.icons8.com/color/48/000000/twitter--v1.png" /></a></li>
+                        <li><a href="https://www.linkedin.com/in" target="_blank"><img
+                                    src="https://img.icons8.com/color/48/000000/linkedin.png" /></a></li>
+                        <li><a href="mailto:" target="_blank"><img
+                                    src="https://img.icons8.com/color/48/000000/gmail-new.png" /></a></li>
+                    </ul>
+                    <div>
+                        <a href="#contact" class="btn btn-default">Write me a Message 😊</a>
+                    </div>
+                    <!-- scroll-down mouse wheel  -->
+                    <div class="scroll-down">
+                        <a href="#" class="mouse-wrapper">
+                            <span>Scroll Down</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- about  -->
+        <section class="about section" id="about">
+            <div class="container">
+                <!-- section title  -->
+                <h2 class="section-title padd-15">About Me</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!-- avatar -->
+                        <img src="img/aboutimg.jpg" alt="aboutimg">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text">
+                                    <!-- about text  -->
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, amet
+                                        exercitationem voluptatum laborum neque corporis sit dicta, veritatis quas,
+                                        dolore voluptatem atque ut cum illo voluptatibus quia delectus vel quis et.
+                                        Debitis exercitationem inventore cum! Nemo minus quos necessitatibus. Eos, ad
+                                        quae! Maiores nisi cumque, atque doloremque alias suscipit pariatur eius ea!
+                                        Eveniet et provident voluptate incidunt? Quo animi sint similique officiis
+                                        doloremque laudantium quod!</p>
+
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <!-- skill item  -->
+                                        <div class="skill-item">
+                                            <h4> Front-End Development</h4>
+                                            <div class="progress">
+                                                <div class="progress-in"
+                                                    style="width: 60%;background: rgb(255, 30, 82);"></div>
+                                                <div class="skill-percent">60%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item  -->
+                                        <div class="skill-item">
+                                            <h4>Skill 1</h4>
+                                            <div class="progress">
+                                                <div class="progress-in"
+                                                    style="width: 76%;background: rgb(38, 202, 112);"></div>
+                                                <div class="skill-percent">76%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item  -->
+                                        <div class="skill-item">
+                                            <h4>Skill 2</h4>
+                                            <div class="progress">
+                                                <div class="progress-in"
+                                                    style="width: 70%;background: rgb(218, 221, 28);"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cv-btn">
+                                        <a href="#" class="btn btn-default">Download CV</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fact-item-row ">
+                    <!-- fact-item   -->
+                    <!-- <div class="row"> -->
+                    <div class="fact-item">
+                        <i class="lni lni-thumbs-up"></i>
+                        <div class="details">
+                            <h3>00</h3>
+                            <p>Project &nbspDone</p>
+                        </div>
+                    </div>
+
+                    <div class="fact-item">
+                        <i class="lni lni-users"></i>
+                        <div class="detais">
+                            <h3>00</h3>
+                            <p>Users</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <!--SERVICES-->
+        <section class="services section" id="services">
+            <div class="container">
+                <!-- section title  -->
+                <h2 class="section-title padd-15">Services</h2>
+                <div class="row">
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: #DFF5FF;">
+                            <img src="./img/skill1webd.png" alt="webd">
+                            <h3> Front-End Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus voluptates modi
+                                voluptas non iste perferendis aliquid eaque ullam laudantium quasi!</p>
+                        </div>
+                    </div>
+
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: #DFF5FF;">
+                            <img src="./img/skill2 demo.jpg" alt="skill2">
+                            <h3>Service 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus voluptates modi
+                                voluptas non iste perferendis aliquid eaque ullam laudantium quasi!</p>
+
+                        </div>
+                    </div>
+
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: #E0EDFE;">
+                            <img src="./img/skill3 demo.jpg" alt="skill3">
+                            <h3>Service 3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus voluptates modi
+                                voluptas non iste perferendis aliquid eaque ullam laudantium quasi!</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text padd-15">
+                    <p>Looking for custom works?<a href="mailto:"> Click here </a>to contact me! 👋🏽</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- experiemce -->
+        <section class="section" id="experience">
+            <div class="container">
+                <!-- section title  -->
+                <h2 class="section-title padd-15">Experience</h2>
+                <div class="row">
+                    <!-- education -->
+                    <div class="education padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">2020-Present
+                                            <i class="lni lni-calendar"></i>
+                                        </h3>
+                                        <h3 class="timeline-title">Bachelor's Degree</h3>
+                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Adipisci doloribus laborum nisi voluptatem voluptates consectetur.</p>
+                                    </div>
+
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">2015-2018
+                                            <i class="lni lni-calendar"></i>
+                                        </h3>
+                                        <h3 class="timeline-title">High School</h3>
+                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Adipisci doloribus laborum nisi voluptatem voluptates consectetur.</p>
+                                    </div>
+
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">2007-2014
+                                            <i class="lni lni-calendar"></i>
+                                        </h3>
+                                        <h3 class="timeline-title">Middle School</h3>
+                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Adipisci doloribus laborum nisi voluptatem voluptates consectetur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- experience  -->
+                    <div class="experience padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">November'21-Present
+                                            <i class="lni lni-calendar"></i>
+                                        </h3>
+                                        <h3 class="timeline-title">Internship at XYZ</h3>
+                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Adipisci doloribus laborum nisi voluptatem voluptates consectetur.</p>
+                                    </div>
+
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">2020-2021
+                                            <i class="lni lni-calendar"></i>
+                                        </h3>
+                                        <h3 class="timeline-title">Work 1</h3>
+                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Adipisci doloribus laborum nisi voluptatem voluptates consectetur.</p>
+                                    </div>
+
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">2019-2020
+                                            <i class="lni lni-calendar"></i>
+                                        </h3>
+                                        <h3 class="timeline-title">Work 2</h3>
+                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Adipisci doloribus laborum nisi voluptatem voluptates consectetur.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio  -->
+
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <!-- section title  -->
+                <h2 class="section-title padd-15" Portfolio></h2>
+                <div class="row">
+                    <div class="portfolio-filter padd-15">
+                        <div class="portfolio-filter-inner">
+                            <button type="button" class="active" data-filter="all">Everything</button>
+                            <button type="button" data-filter="art">Art</button>
+                            <button type="button" data-filter="creative">Creative</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row portfolio-items">
+                    <!-- portfolio item     -->
+                    <div class="portfolio-item padd-15" data-category="art">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="./img/p1.jpg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Art , Design</span>
+                            <h3 class="portfolio-item-title">Project 1 <br>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Exercitationem, maiores?</b></h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item     -->
+                    <div class="portfolio-item padd-15" data-category="design">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="./img/p2.jpg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Creative</span>
+                            <h3 class="portfolio-item-title">Project 2 <br>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Excepturi, nemo.</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item     -->
+                    <div class="portfolio-item padd-15" data-category="art">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="./img/p3.jpg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Art</span>
+                            <h3 class="portfolio-item-title">Project 3 <br>Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Praesentium, beatae?</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+                    <!-- portfolio item     -->
+                    <div class="portfolio-item padd-15" data-category="design">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="./img/p4.jpg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Design</span>
+                            <h3 class="portfolio-item-title">Project 4 <br>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Culpa, quasi.</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item     -->
+                    <div class="portfolio-item padd-15" data-category="creative">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="./img/p5.jpg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Creative</span>
+                            <h3 class="portfolio-item-title">Project 5 <br>Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Unde, nam?</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+
+                    <!-- portfolio item     -->
+                    <div class="portfolio-item padd-15" data-category="art">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="./img/p6.jpg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Art , Design</span>
+                            <h3 class="portfolio-item-title">Project 6 <br>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Laudantium, cupiditate.</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact me  -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <!-- section title  -->
+                <h2 class="section-title padd-15">Contact Me</h2>
+                <div class="row">
+                    <!-- contact box  -->
+                    <div class="contact-box padd-15">
+                        <div class="contact-data">
+                            <!-- contact information  -->
+                            <div class="contact-information">
+                                <h3 class="contact-subtitle">
+                                    Call Details
+                                </h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-phone contact-icon"></i>
+                                    Work : +91 9876543210
+                                </span>
+                            </div>
+
+                            <!-- contact information  -->
+                            <div class="contact-information">
+                                <h3 class="contact-subtitle">
+                                    Write me by mail
+                                </h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-user contact-icon"></i>
+                                    bugsyy157@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- contact form  -->
+                    <form action="" class="contact-form padd-15">
+                        <div class="contact-inputs">
+                            <!-- contact content  -->
+                            <div class="contact-content">
+                                <input type="email" class="contact-input">
+                                <label for="" class="contact-label">Email</label>
+                                <span></span>
+                            </div>
+
+                            <!-- contact content  -->
+                            <div class="contact-content">
+                                <input type="text" class="contact-input">
+                                <label for="" class="contact-label">Subject</label>
+                                <span></span>
+                            </div>
+
+                            <!-- contact content  -->
+                            <div class="contact-content  contact-area">
+                                <textarea name="" id="" cols="30" rows="10" class="contact-input"></textarea>
+                                <label for="" class="contact-label">Message</label>
+                                <span></span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-default">Send Message</a>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- footer  -->
+        <footer>
+            <p class="footer-text">
+                Swaraj Karmakar - INTERN @ CODSOFT
+            </p>
+        </footer>
+
+
+    </main>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+
+</body>
+
 </html>
